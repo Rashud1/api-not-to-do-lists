@@ -13,5 +13,7 @@ don't have them run ` npm i -g nodemon`
 path
 | # | API| Method | Description |
 |-----|----|----|------|
-|1.|`/`| GET | Fetch all the ticket list from server |
+|1.|`/`| GET | Fetch single task if @id param is provided otherwise fetch from the server |
 |2.|`/`| POST | Add new ticket in the database |
+|3.|`/`| Delete | Expects ID to be deleted, and deletes from the database. |
+

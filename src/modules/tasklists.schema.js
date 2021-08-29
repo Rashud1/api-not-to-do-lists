@@ -12,6 +12,11 @@ const TicketListSchema = mongoose.Schema(
             require: true,
             default: 0,
         },
+        todo:{
+            type: Boolean,
+            required: true,
+            default: true,
+        }
 
 },
 {
@@ -20,6 +25,6 @@ const TicketListSchema = mongoose.Schema(
 )
 
 
-const TaskList = mongoose.model( "", TicketListSchema)
+const TaskList = mongoose.model( "Task_list", TicketListSchema)
 
 export default TaskList
