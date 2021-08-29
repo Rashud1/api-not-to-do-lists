@@ -17,3 +17,4 @@ path
 |2.|`/`| POST | Add new ticket in the database |
 |3.|`/`| Delete | Expects ID to be deleted, and deletes from the database. |
 
+# Backend-front-end
